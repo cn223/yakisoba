@@ -1,0 +1,30 @@
+{
+  "name": "yakisoba",
+  "version": "0.0.1",
+  "description": "Running a surveillance drone @home powered by a dumb software junkie",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geshii/yakisoba.git"
+  },
+  "author": "geshii",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/geshii/yakisoba/issues"
+  },
+  "homepage": "https://github.com/geshii/yakisoba#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "http": "0.0.1-security",
+    "opencv4nodejs": "^5.6.0",
+    "path": "^0.12.7",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
