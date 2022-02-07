@@ -1,4 +1,4 @@
-const cv2 = require('opencv4nodejs')
+// const cv2 = require('opencv4nodejs')
 const express = require('express')
 const fs = require('fs')
 const path = require('path')
@@ -26,6 +26,7 @@ setInterval(() => {
     const image = cv2.imencode('.jpg', frame).toString('base64');
     io.emit('image', image);
 }, 1000 / FPS); */
+// There is no camera on the Github Codespaces server, however this piece of code works
 
 server.listen(port, () => {
   console.log(`Webserver is up and running on ${port}`)
