@@ -26,7 +26,8 @@ setInterval(() => {
     const image = cv2.imencode('.jpg', frame).toString('base64');
     io.emit('image', image);
 }, 1000 / FPS); */
-// There is no camera on the Github Codespaces server, however this piece of code works
+// I'm too tired and dumb, might fix later...
+// It should work though
 
 server.listen(port, () => {
   console.log(`Webserver is up and running on ${port}`)
